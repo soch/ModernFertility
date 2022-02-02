@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D25C4F0D27A903C20016DB1F /* ModernFertilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C4F0C27A903C20016DB1F /* ModernFertilityApp.swift */; };
+		D25C4F0F27A903C20016DB1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C4F0E27A903C20016DB1F /* ContentView.swift */; };
+		D25C4F1127A903C50016DB1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25C4F1027A903C50016DB1F /* Assets.xcassets */; };
+		D25C4F1427A903C50016DB1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25C4F1327A903C50016DB1F /* Preview Assets.xcassets */; };
+		D25C4F1E27A904850016DB1F /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C4F1D27A904850016DB1F /* Photo.swift */; };
+		D25C4F2027A9056C0016DB1F /* PhotosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C4F1F27A9056C0016DB1F /* PhotosListView.swift */; };
+		D25C4F2227A9057C0016DB1F /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C4F2127A9057C0016DB1F /* PhotoViewModel.swift */; };
+		D25C4F2627A906210016DB1F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C4F2427A906210016DB1F /* NetworkService.swift */; };
+		D25C4F2727A906210016DB1F /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C4F2527A906210016DB1F /* PhotoService.swift */; };
+		D25C4F2927A909A50016DB1F /* PhotoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C4F2827A909A50016DB1F /* PhotoRowView.swift */; };
+		D25C4F2C27A90BFB0016DB1F /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C4F2B27A90BFB0016DB1F /* PhotoDetailView.swift */; };
+		D25C4F2E27A9118A0016DB1F /* PhotoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C4F2D27A9118A0016DB1F /* PhotoContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D25C4F0927A903C20016DB1F /* ModernFertility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModernFertility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25C4F0C27A903C20016DB1F /* ModernFertilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernFertilityApp.swift; sourceTree = "<group>"; };
+		D25C4F0E27A903C20016DB1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D25C4F1027A903C50016DB1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D25C4F1327A903C50016DB1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D25C4F1D27A904850016DB1F /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		D25C4F1F27A9056C0016DB1F /* PhotosListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListView.swift; sourceTree = "<group>"; };
+		D25C4F2127A9057C0016DB1F /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		D25C4F2427A906210016DB1F /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		D25C4F2527A906210016DB1F /* PhotoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
+		D25C4F2827A909A50016DB1F /* PhotoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRowView.swift; sourceTree = "<group>"; };
+		D25C4F2B27A90BFB0016DB1F /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
+		D25C4F2D27A9118A0016DB1F /* PhotoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoContentView.swift; sourceTree = "<group>"; };
+		D2FE8EA627AA58140019E658 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D25C4F0627A903C20016DB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D25C4F0027A903C20016DB1F = {
+			isa = PBXGroup;
+			children = (
+				D2FE8EA627AA58140019E658 /* ReadMe.md */,
+				D25C4F0B27A903C20016DB1F /* ModernFertility */,
+				D25C4F0A27A903C20016DB1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D25C4F0A27A903C20016DB1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D25C4F0927A903C20016DB1F /* ModernFertility.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D25C4F0B27A903C20016DB1F /* ModernFertility */ = {
+			isa = PBXGroup;
+			children = (
+				D25C4F0C27A903C20016DB1F /* ModernFertilityApp.swift */,
+				D25C4F1A27A903D20016DB1F /* Model */,
+				D25C4F1B27A903DE0016DB1F /* View */,
+				D25C4F1C27A903E80016DB1F /* View Model */,
+				D25C4F2327A906210016DB1F /* Network Layer */,
+				D25C4F1027A903C50016DB1F /* Assets.xcassets */,
+				D25C4F1227A903C50016DB1F /* Preview Content */,
+			);
+			path = ModernFertility;
+			sourceTree = "<group>";
+		};
+		D25C4F1227A903C50016DB1F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D25C4F1327A903C50016DB1F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D25C4F1A27A903D20016DB1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D25C4F1D27A904850016DB1F /* Photo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D25C4F1B27A903DE0016DB1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D25C4F0E27A903C20016DB1F /* ContentView.swift */,
+				D25C4F1F27A9056C0016DB1F /* PhotosListView.swift */,
+				D25C4F2827A909A50016DB1F /* PhotoRowView.swift */,
+				D25C4F2B27A90BFB0016DB1F /* PhotoDetailView.swift */,
+				D25C4F2D27A9118A0016DB1F /* PhotoContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D25C4F1C27A903E80016DB1F /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				D25C4F2127A9057C0016DB1F /* PhotoViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		D25C4F2327A906210016DB1F /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				D25C4F2427A906210016DB1F /* NetworkService.swift */,
+				D25C4F2527A906210016DB1F /* PhotoService.swift */,
+			);
+			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D25C4F0827A903C20016DB1F /* ModernFertility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25C4F1727A903C50016DB1F /* Build configuration list for PBXNativeTarget "ModernFertility" */;
+			buildPhases = (
+				D25C4F0527A903C20016DB1F /* Sources */,
+				D25C4F0627A903C20016DB1F /* Frameworks */,
+				D25C4F0727A903C20016DB1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModernFertility;
+			productName = ModernFertility;
+			productReference = D25C4F0927A903C20016DB1F /* ModernFertility.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D25C4F0127A903C20016DB1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D25C4F0827A903C20016DB1F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D25C4F0427A903C20016DB1F /* Build configuration list for PBXProject "ModernFertility" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D25C4F0027A903C20016DB1F;
+			productRefGroup = D25C4F0A27A903C20016DB1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D25C4F0827A903C20016DB1F /* ModernFertility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D25C4F0727A903C20016DB1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25C4F1427A903C50016DB1F /* Preview Assets.xcassets in Resources */,
+				D25C4F1127A903C50016DB1F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D25C4F0527A903C20016DB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25C4F1E27A904850016DB1F /* Photo.swift in Sources */,
+				D25C4F0F27A903C20016DB1F /* ContentView.swift in Sources */,
+				D25C4F2927A909A50016DB1F /* PhotoRowView.swift in Sources */,
+				D25C4F2E27A9118A0016DB1F /* PhotoContentView.swift in Sources */,
+				D25C4F0D27A903C20016DB1F /* ModernFertilityApp.swift in Sources */,
+				D25C4F2027A9056C0016DB1F /* PhotosListView.swift in Sources */,
+				D25C4F2727A906210016DB1F /* PhotoService.swift in Sources */,
+				D25C4F2627A906210016DB1F /* NetworkService.swift in Sources */,
+				D25C4F2227A9057C0016DB1F /* PhotoViewModel.swift in Sources */,
+				D25C4F2C27A90BFB0016DB1F /* PhotoDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D25C4F1527A903C50016DB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D25C4F1627A903C50016DB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D25C4F1827A903C50016DB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ModernFertility/Preview Content\"";
+				DEVELOPMENT_TEAM = 28K4GG93U4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riggur.ModernFertility;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D25C4F1927A903C50016DB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ModernFertility/Preview Content\"";
+				DEVELOPMENT_TEAM = 28K4GG93U4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riggur.ModernFertility;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D25C4F0427A903C20016DB1F /* Build configuration list for PBXProject "ModernFertility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25C4F1527A903C50016DB1F /* Debug */,
+				D25C4F1627A903C50016DB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25C4F1727A903C50016DB1F /* Build configuration list for PBXNativeTarget "ModernFertility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25C4F1827A903C50016DB1F /* Debug */,
+				D25C4F1927A903C50016DB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D25C4F0127A903C20016DB1F /* Project object */;
+}
